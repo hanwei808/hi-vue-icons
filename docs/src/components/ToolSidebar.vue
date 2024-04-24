@@ -7,14 +7,7 @@
         {{ t("toolbar.scale") }}
       </div>
       <div class="flex flex-1">
-        <vue-slider
-          v-model="state.size"
-          class="flex-1"
-          :max="3"
-          :min="0.1"
-          :interval="0.1"
-          tooltip="none"
-        />
+        <el-slider v-model="state.size" :max="3" :min="0.1" :step="0.1" />
         <div class="w-10 text-right">
           {{ state.size }}
         </div>
@@ -94,14 +87,7 @@
         {{ t("toolbar.animSpeed") }}
       </div>
       <div class="flex flex-1">
-        <vue-slider
-          v-model="state.speed"
-          class="flex-1"
-          :max="3"
-          :min="1"
-          :interval="1"
-          :tooltip-formatter="formatter"
-        />
+        <el-slider v-model="state.speed" :max="3" :min="1" :step="1" />
         <div class="w-8 text-right">
           {{ state.speed }}
         </div>
@@ -121,9 +107,10 @@
 
 <script setup lang="ts">
 import VSwatches from "vue3-swatches";
-import VueSlider from "vue-slider-component/dist-css/vue-slider-component.umd.min.js";
-import "vue-slider-component/dist-css/vue-slider-component.css";
-import "vue-slider-component/theme/default.css";
+
+import { ElSlider } from "element-plus";
+import "element-plus/es/components/slider/style/css";
+
 import { useIconStore } from "~/stores/icon";
 
 const { t } = useI18n();
