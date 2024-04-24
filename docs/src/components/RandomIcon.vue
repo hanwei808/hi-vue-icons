@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { listIcons } from "hi-vue-icons-npm";
+import { listIcons } from "hi-vue-icons";
 const keys = Object.keys(listIcons());
 
 const randomIcon = () => {

@@ -26,7 +26,7 @@ export default defineConfig({
 
   // @ts-ignore:next-line
   ssr: {
-    noExternal: ["hi-vue-icons-npm"]
+    noExternal: ["hi-vue-icons"]
   },
 
   plugins: [

@@ -7,8 +7,8 @@ import "@unocss/reset/tailwind.css";
 import "./styles/main.css";
 import "uno.css";
 
-import { HiVueIcon, addIcons } from "hi-vue-icons-npm";
-import * as AllIcons from "hi-vue-icons-npm/icons";
+import { HiVueIcon, addIcons } from "hi-vue-icons";
+import * as AllIcons from "hi-vue-icons/icons";
 
 addIcons(...Object.values({ ...AllIcons }));
 addIcons(

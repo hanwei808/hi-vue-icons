@@ -100,7 +100,7 @@
 </template>
 
 <script setup lang="ts">
-import { listIcons } from "hi-vue-icons-npm";
+import { listIcons } from "hi-vue-icons";
 import { useIconStore } from "~/stores/icon";
 import icons from "~/icons";
 

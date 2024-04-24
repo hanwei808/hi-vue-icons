@@ -18,6 +18,10 @@ const icons = [
     multiColor: true
   },
   {
+    id: "el",
+    name: "Element Plus Icons"
+  },
+  {
     id: "fa",
     name: "Font Awesome"
   },
