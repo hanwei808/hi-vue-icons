@@ -22,7 +22,7 @@
 
 | 图标库                                                                            | 前缀 | 协议                                                                                       | 图标数量 |
 | --------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------ | -------- |
-| [Element Plus Icons](https://github.com/element-plus/element-plus-icons)          | `el` | [MIT](https://element-plus.gitee.io/zh-CN/component/icon.html)                             | 293      |
+| [Element Plus Icons](https://github.com/element-plus/element-plus-icons)          | `el` | [MIT](https://github.com/element-plus/element-plus-icons/blob/main/LICENSE)                | 293      |
 | [academicons](https://github.com/jpswalsh/academicons)                            | `ai` | [SIL OFL 1.1](http://scripts.sil.org/OFL)                                                  | 149      |
 | [Bootstrap Icons](https://github.com/twbs/icons)                                  | `bi` | [MIT](https://github.com/twbs/icons/blob/main/LICENSE.md)                                  | 1668     |
 | [CoreUI Icons Free](https://github.com/coreui/coreui-icons) (Colorful)            | `co` | [CC BY 4.0 License](https://github.com/coreui/coreui-icons/blob/master/LICENSE)            | 1575     |
