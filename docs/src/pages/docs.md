@@ -83,13 +83,13 @@ Import `hi-vue-icons` and install it into Vue in `main.js`. You can only import 
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import { HiVueIcon, addIcons } from "hi-vue-icons";
+import { OhVueIcon, addIcons } from "hi-vue-icons";
 import { FaFlag, RiZhihuFill } from "hi-vue-icons/icons";
 
 addIcons(FaFlag, RiZhihuFill);
 
 const app = createApp(App);
-app.component("v-icon", HiVueIcon);
+app.component("v-icon", OhVueIcon);
 app.mount("#app");
 ```
 
@@ -111,12 +111,12 @@ addIcons(...Fa);
 import Vue from "vue";
 import App from "./App.vue";
 
-import { HiVueIcon, addIcons } from "hi-vue-icons";
+import { OhVueIcon, addIcons } from "hi-vue-icons";
 import { FaFlag, RiZhihuFill } from "hi-vue-icons/icons";
 
 addIcons(FaFlag, RiZhihuFill);
 
-Vue.component("v-icon", HiVueIcon);
+Vue.component("v-icon", OhVueIcon);
 
 new Vue({
   render: h => h(App)
@@ -128,11 +128,11 @@ new Vue({
 ### Local Import
 
 ```js
-import HiVueIcon from "hi-vue-icons";
+import OhVueIcon from "hi-vue-icons";
 
 export default {
   components: {
-    "v-icon": HiVueIcon
+    "v-icon": OhVueIcon
   }
 };
 ```
