@@ -1,0 +1,7 @@
+node_modules/
+iconpacks/
+package/icons/
+package/build/
+*dist/
+docs/src/auto-imports.d.ts
+docs/src/components.d.ts

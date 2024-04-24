@@ -1,12 +1,6 @@
-# Hi, Vue Icons!
-
-[![license](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-
-**English** | [中文说明](README-CN.md)
-
-A [Vue](https://vuejs.org/) component for including inline SVG icons from different popular icon packs easily.
-
-&nbsp;
+---
+title: Docs - Hi, Vue Icons!
+---
 
 ## Features
 

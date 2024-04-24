@@ -1,26 +1,20 @@
-# Hi, Vue Icons!
+---
+title: 文档 - Hi, Vue Icons!
+---
 
-[![license](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+## 特性
 
-**English** | [中文说明](README-CN.md)
-
-A [Vue](https://vuejs.org/) component for including inline SVG icons from different popular icon packs easily.
-
-&nbsp;
-
-## Features
-
-- Works for both Vue 2 & 3
-- Supports tree-shaking: only import the icons you want
-- 30000+ icons from 21 popular icon packs, see [here](#supported-icon-packs)
+- 支持 Vue 2 和 3
+- 支持 tree-shaking，因此你能够仅引入你需要的图标从而减小打包体积
+- 支持来自 [21 个流行的图标库](#支持的图标库)的 30000+ 个图标
 
 &nbsp;
 
-## Supported Icon Packs
+## 支持的图标库
 
-Now the following 21 icon packs are supported:
+目前支持以下 21 个图标库：
 
-| Icon Pack                                                     | Prefix | License                                                       | Counts     |
+| 图标库                                                         | 前缀    | 协议                                                          | 图标数量     |
 | ------------------------------------------------------------- | ------ | ------------------------------------------------------------- | ---------- |
 | [Element Plus Icons](https://github.com/element-plus/element-plus-icons)          | `el`   | [MIT](https://element-plus.gitee.io/zh-CN/component/icon.html)                             | 294    |
 | [academicons](https://github.com/jpswalsh/academicons)        | `ai`   | [SIL OFL 1.1](http://scripts.sil.org/OFL)                     | 149        |
@@ -46,41 +40,41 @@ Now the following 21 icon packs are supported:
 
 &nbsp;
 
-## Documentation
+## 文档
 
-Search for icons and view the documentation [here](https://icons.hanwei.io).
+在[这里](https://icons.hanwei.io/zh/)查找图标和查看文档。
 
 &nbsp;
 
-## Installation
+## 安装
 
 ```bash
 yarn add hi-vue-icons
-# or
+# 或
 npm install hi-vue-icons
 ```
 
-For Vue 2, you'll also need `@vue/composition-api`:
+使用 Vue 2 时，还需要安装 `@vue/composition-api`：
 
 ```bash
 yarn add @vue/composition-api -D
 ```
 
-Or if you are using [Nuxt 2](https://nuxtjs.org/), you'll need `@nuxtjs/composition-api` instead:
+如果用的是 [Nuxt 2](https://nuxtjs.org/)，则需要安装的是 `@nuxtjs/composition-api`：
 
 ```bash
 yarn add @nuxtjs/composition-api -D
 ```
 
-then add `@nuxtjs/composition-api/module` to the `buildModules` option in your `nuxt.config.js`, see [here](https://composition-api.nuxtjs.org/getting-started/setup) for details.
+然后把 `@nuxtjs/composition-api/module` 加到你的 `nuxt.config.js` 文件的 `buildModules` 项中，更多细节见[这里](https://composition-api.nuxtjs.org/getting-started/setup)。
 
 &nbsp;
 
-## Import
+## 引入
 
-### Global Import
+### 全局引入
 
-Import `hi-vue-icons` and install it into Vue in `main.js`. You can only import the icons you need to reduce the bundle size.
+首先需要在 `main.js` 中引入 `hi-vue-icons`。你可以只引入你需要的图标从而减小打包体积。
 
 #### Vue 3
 
@@ -99,15 +93,15 @@ app.component("v-icon", HiVueIcon);
 app.mount("#app");
 ```
 
-If you don't care about the bundle size and want to import a whole icon pack, you may should:
+如果你并不在意打包体积，并希望引入某个图标库的所有图标，你可以：
 
 ```js
 // main.js
-// import Font Awesome
-import * as FaIcons from "hi-vue-icons/icons/fa";
+// 引入 Font Awesome
+import * as FaIcons from 'hi-vue-icons/icons/fa'
 
-const Fa = Object.values({ ...FaIcons });
-addIcons(...Fa);
+const Fa = Object.values({ ...FaIcons })
+HiVueIcon.add(...Fa);
 ```
 
 #### Vue 2
@@ -131,7 +125,7 @@ new Vue({
 
 &nbsp;
 
-### Local Import
+### 局部引入
 
 ```js
 import HiVueIcon from "hi-vue-icons";
@@ -145,9 +139,9 @@ export default {
 
 &nbsp;
 
-## Usage
+## 用法
 
-The icon names should be passed using **kebab-case**.
+通过 `name` prop 来指定图标名，`name` prop 值需要使用**短横线隔开式**命名：
 
 ```html
 <template>
@@ -158,46 +152,46 @@ The icon names should be passed using **kebab-case**.
 </template>
 ```
 
-For [Font Awesome 5](https://fontawesome.com/) icons, icons from `regular` pack have name prop values like `fa-regular-flag`. Icons from `solid` and `brands` pack have name prop values like `fa-beer` and `fa-github`.
+对于 [Font Awesome 5](https://fontawesome.com/)，来自 `regular` 包的图标的 `name` prop 值的前缀为 `fa-regular-` 而不是 `fa-`，如 `fa-regular-flag`。而 `solid` 和 `brands` 包的图标前缀均为 `fa-`，如 `fa-beer` 和 `fa-github`。
 
-See the [documentation](https://icons.hanwei.io/docs#basic-usage) for more about the usage.
+[文档](https://icons.hanwei.io/zh/docs#基本用法)中有更多的用法。
 
 &nbsp;
 
 ## Props
 
-| Name        | Description                              | Type      | Accepted Values                                               | Default value  |
-| ----------- | ---------------------------------------- | --------- | ------------------------------------------------------------- | -------------- |
-| `scale`     | Icon size                                | `number`  | /                                                             | `1`            |
-| `animation` | Type of animation                        | `string`  | `wrench` / `ring` / `pulse` / `spin` / `spin-pulse` / `flash` / `float` | /              |
-| `speed`     | Animation speed                          | `string`  | `slow` / `fast`                                               | /              |
-| `hover`     | Enable animation only when being hovered | `boolean` | `true` / `false`                                              | `false`        |
-| `flip`      | Used to flip icon                        | `string`  | `vertical` / `horizontal` / `both`                            | /              |
-| `fill`      | Fill color of icon                       | `string`  | HEX color code or color name                                  | `currentColor` |
-| `label`     | Icon lable                               | `string`  | /                                                             | /              |
-| `title`     | Icon title                               | `string`  | /                                                             | /              |
-| `inverse`   | Make icon color white?                   | `boolean` | `true` / `false`                                              | `false`        |
+| 名称         | 描述                 | 类型       | 接受值                                                         | 默认值          |
+| ----------- | ---------------------| --------- | ------------------------------------------------------------- | -------------- |
+| `scale`     | 图标大小               | `number`  | /                                                             | `1`            |
+| `animation` | 动画类型               | `string`  | `wrench` / `ring` / `pulse` / `spin` / `spin-pulse` / `flash` / `float` | /              |
+| `speed`     | 动画速度               | `string`  | `slow` / `fast`                                               | /              |
+| `hover`     | 仅在被 hover 时启用动画 | `boolean` | `true` / `false`                                              | `false`        |
+| `flip`      | 翻转类型               | `string`  | `vertical` / `horizontal` / `both`                            | /              |
+| `fill`      | 图标的填充颜色          | `string`  | 颜色名称或十六进制颜色代码                                        | `currentColor` |
+| `label`     | 图标的 lable           | `string`  | /                                                             | /              |
+| `title`     | 图标的 title           | `string`  | /                                                             | /              |
+| `inverse`   | 把图标变成白色          | `boolean` | `true` / `false`                                              | `false`        |
 
-Some examples could be found in the [documentation](https://icons.hanwei.io/docs#examples).
+[文档](https://icons.hanwei.io/zh/docs#示例)中有一些示例。
 
 &nbsp;
 
 ## Nuxt
 
-When using Nuxt, you need to register `hi-vue-icons` as a plugin following [Nuxt's documentation](https://nuxtjs.org/docs/directory-structure/plugins#vue-plugins).
+当使用 Nuxt.js 时，需要按照 [Nuxt 文档](https://nuxtjs.org/docs/2.x/directory-structure/plugins)中的方式，将 `hi-vue-icons` 注册为一个插件。
 
-It should be noted that, `hi-vue-icons` should be added to the `build.transpile` option in your `nuxt.config.js` (see [here](https://nuxtjs.org/docs/directory-structure/plugins/#es6-plugins) for details):
+然后需要在 `nuxt.config.js` 的 `build.transpile` 项中添加 `hi-vue-icons`（具体解释见[这里](https://nuxtjs.org/docs/2.x/directory-structure/plugins)）：
 
 ```js
 export default {
   // ...
   build: {
-    transpile: ["hi-vue-icons"]
+    transpile: ['hi-vue-icons']
   }
 }
 ```
 
-To render the icon component only on client-side, you may need to wrap it in a `<client-only>` tag:
+为了仅在客户端（client-side）渲染该组件，需要把组件包裹在 `<client-only>` 标签里：
 
 ```html
 <template>
@@ -214,7 +208,7 @@ To render the icon component only on client-side, you may need to wrap it in a `
 
 ## Vite
 
-When using [Vite](https://vitejs.dev/), it is suggested to exclude `hi-vue-icons` from pre-bundling:
+使用 [Vite](https://cn.vitejs.dev/) 作为打包工具时，建议在预构建中排除 `hi-vue-icons`：
 
 ```js
 // vite.config.js
@@ -227,7 +221,7 @@ export default {
 }
 ```
 
-When using Vite's [Server-Side Rendering (SSR)](https://vitejs.dev/guide/ssr.html) support ([VuePress](https://v2.vuepress.vuejs.org/), [Vite SSG](https://github.com/antfu/vite-ssg), etc.), `hi-vue-icons` should be added to the `ssr.noExternal` option (see [here](https://vitejs.dev/guide/ssr.html#ssr-externals) for details):
+当使用 Vite 的[服务端渲染（SSR）](https://cn.vitejs.dev/guide/ssr.html)功能时（例如 [VuePress](https://v2.vuepress.vuejs.org/zh/)、[Vite SSG](https://github.com/antfu/vite-ssg) 等），需要将 `hi-vue-icons` 加入 `ssr.noExternal` 项（具体解释见[这里](https://cn.vitejs.dev/guide/ssr.html#ssr-externals)）：
 
 ```js
 // vite.config.js
@@ -242,18 +236,18 @@ export default {
 
 &nbsp;
 
-## Contributing
+## 贡献
 
-Contributions are welcomed, see the [contribution guides](CONTRIBUTING.md).
-
-&nbsp;
-
-## Acknowledgements
-
-- This project is inspired by and based on [vue-awesome](https://github.com/Justineo/vue-awesome) and [react-icons](https://github.com/react-icons/react-icons)
+欢迎贡献，这里是[贡献指南](CONTRIBUTING.md)。
 
 &nbsp;
 
-## License
+## 致谢
 
-This project is [MIT](LICENSE) licensed. Icons are taken from [other projects](#supported-icon-packs), so check the license of each accordingly.
+- 本项目受到了 [vue-awesome](https://github.com/Justineo/vue-awesome) 和 [react-icons](https://github.com/react-icons/react-icons) 的启发并借鉴了它们的部分代码
+
+&nbsp;
+
+## 开源协议
+
+本项目使用 [MIT](LICENSE) 开源协议。图标来自于[其他项目](#支持的图标库)，所以还需要参考这些项目的开源协议。
