@@ -20,29 +20,29 @@
 
 目前支持以下 21 个图标库：
 
-| 图标库                                                         | 前缀    | 协议                                                          | 图标数量     |
-| ------------------------------------------------------------- | ------ | ------------------------------------------------------------- | ---------- |
-| [Element Plus Icons](https://github.com/element-plus/element-plus-icons)          | `el`   | [MIT](https://element-plus.gitee.io/zh-CN/component/icon.html)                             | 294    |
-| [academicons](https://github.com/jpswalsh/academicons)        | `ai`   | [SIL OFL 1.1](http://scripts.sil.org/OFL)                     | 149        |
-| [Bootstrap Icons](https://github.com/twbs/icons)              | `bi`   | [MIT](https://github.com/twbs/icons/blob/main/LICENSE.md)     | 1668       |
-| [CoreUI Icons Free](https://github.com/coreui/coreui-icons) (Colorful) | `co`   | [CC BY 4.0 License](https://github.com/coreui/coreui-icons/blob/master/LICENSE) | 1575       |
-| [Cryptocurrency Icons](https://github.com/spothq/cryptocurrency-icons) (Colorful) | `ci`   | [CC0 1.0 Universal](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md) | 942        |
-| [Font Awesome 5 Free](https://github.com/FortAwesome/Font-Awesome) | `fa`   | [CC BY 4.0](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt) | 1610       |
-| [Flat Color Icons](https://github.com/icons8/flat-color-icons) (Colorful) | `fc`   | [MIT / Good Boy](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 329        |
-| [Flag Icon](https://github.com/lipis/flag-icon-css) (Colorful)| `fi`   | [MIT](https://github.com/lipis/flag-icon-css/blob/master/LICENSE) | 530        |
-| [gameicons](https://github.com/game-icons/icons)              | `gi`   | [CC BY 3.0](https://github.com/game-icons/icons/blob/master/license.txt) | 4052       |
-| [Heroicons](https://github.com/tailwindlabs/heroicons)        | `hi`   | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 460       |
-| [Ionicons](https://github.com/ionic-team/ionicons)            | `io`   | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE) | 1332      |
-| [Line Awesome](https://github.com/icons8/line-awesome)        | `la`   | [MIT / Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1544      |
-| [Material Design icons](https://github.com/google/material-design-icons) | `md`   | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE) | 10537      |
-| [Octicons](https://github.com/primer/octicons)                | `oi`   | [MIT](https://github.com/primer/octicons/blob/main/LICENSE) | 259        |
-| [Pokemon Icons](https://github.com/TheArtificial/pokemon-icons) (Colorful)| `pi`   | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 1453      |
-| [PrimeIcons](https://github.com/primefaces/primeicons)        | `pr`   | [MIT](https://github.com/primefaces/primeicons/blob/master/LICENSE) | 238       |
-| [Pixelarticons](https://github.com/halfmage/pixelarticons)    | `px`   | [MIT](https://github.com/halfmage/pixelarticons/blob/master/LICENSE) | 460       |
-| [Remix Icon](https://github.com/Remix-Design/RemixIcon)       | `ri`   | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 2271       |
-| [Simple Icons](https://github.com/simple-icons/simple-icons)  | `si`   | [CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 2233       |
-| [VSCode Icons](https://github.com/vscode-icons/vscode-icons) (Colorful) | `vi`   | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | 1125       |
-| [Weather Icons](https://github.com/erikflowers/weather-icons) | `wi`   | [SIL OFL 1.1](http://scripts.sil.org/OFL)                     | 219        |
+| 图标库                                                                            | 前缀 | 协议                                                                                       | 图标数量 |
+| --------------------------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------ | -------- |
+| [Element Plus Icons](https://github.com/element-plus/element-plus-icons)          | `el` | [MIT](https://element-plus.gitee.io/zh-CN/component/icon.html)                             | 293      |
+| [academicons](https://github.com/jpswalsh/academicons)                            | `ai` | [SIL OFL 1.1](http://scripts.sil.org/OFL)                                                  | 149      |
+| [Bootstrap Icons](https://github.com/twbs/icons)                                  | `bi` | [MIT](https://github.com/twbs/icons/blob/main/LICENSE.md)                                  | 1668     |
+| [CoreUI Icons Free](https://github.com/coreui/coreui-icons) (Colorful)            | `co` | [CC BY 4.0 License](https://github.com/coreui/coreui-icons/blob/master/LICENSE)            | 1575     |
+| [Cryptocurrency Icons](https://github.com/spothq/cryptocurrency-icons) (Colorful) | `ci` | [CC0 1.0 Universal](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md) | 942      |
+| [Font Awesome 5 Free](https://github.com/FortAwesome/Font-Awesome)                | `fa` | [CC BY 4.0](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)           | 1610     |
+| [Flat Color Icons](https://github.com/icons8/flat-color-icons) (Colorful)         | `fc` | [MIT / Good Boy](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md)        | 329      |
+| [Flag Icon](https://github.com/lipis/flag-icon-css) (Colorful)                    | `fi` | [MIT](https://github.com/lipis/flag-icon-css/blob/master/LICENSE)                          | 530      |
+| [gameicons](https://github.com/game-icons/icons)                                  | `gi` | [CC BY 3.0](https://github.com/game-icons/icons/blob/master/license.txt)                   | 4052     |
+| [Heroicons](https://github.com/tailwindlabs/heroicons)                            | `hi` | [MIT](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE)                       | 460      |
+| [Ionicons](https://github.com/ionic-team/ionicons)                                | `io` | [MIT](https://github.com/ionic-team/ionicons/blob/master/LICENSE)                          | 1332     |
+| [Line Awesome](https://github.com/icons8/line-awesome)                            | `la` | [MIT / Good Boy](https://github.com/icons8/line-awesome/blob/master/LICENSE.md)            | 1544     |
+| [Material Design icons](https://github.com/google/material-design-icons)          | `md` | [Apache 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)          | 10537    |
+| [Octicons](https://github.com/primer/octicons)                                    | `oi` | [MIT](https://github.com/primer/octicons/blob/main/LICENSE)                                | 259      |
+| [Pokemon Icons](https://github.com/TheArtificial/pokemon-icons) (Colorful)        | `pi` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                  | 1453     |
+| [PrimeIcons](https://github.com/primefaces/primeicons)                            | `pr` | [MIT](https://github.com/primefaces/primeicons/blob/master/LICENSE)                        | 238      |
+| [Pixelarticons](https://github.com/halfmage/pixelarticons)                        | `px` | [MIT](https://github.com/halfmage/pixelarticons/blob/master/LICENSE)                       | 460      |
+| [Remix Icon](https://github.com/Remix-Design/RemixIcon)                           | `ri` | [Apache 2.0](https://github.com/Remix-Design/RemixIcon/blob/master/License)                | 2271     |
+| [Simple Icons](https://github.com/simple-icons/simple-icons)                      | `si` | [CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)  | 2233     |
+| [VSCode Icons](https://github.com/vscode-icons/vscode-icons) (Colorful)           | `vi` | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)                            | 1125     |
+| [Weather Icons](https://github.com/erikflowers/weather-icons)                     | `wi` | [SIL OFL 1.1](http://scripts.sil.org/OFL)                                                  | 219      |
 
 &nbsp;
 
@@ -104,9 +104,9 @@ app.mount("#app");
 ```js
 // main.js
 // 引入 Font Awesome
-import * as FaIcons from 'hi-vue-icons/icons/fa'
+import * as FaIcons from "hi-vue-icons/icons/fa";
 
-const Fa = Object.values({ ...FaIcons })
+const Fa = Object.values({ ...FaIcons });
 HiVueIcon.add(...Fa);
 ```
 
@@ -125,7 +125,7 @@ addIcons(FaFlag, RiZhihuFill);
 Vue.component("v-icon", HiVueIcon);
 
 new Vue({
-  render: h => h(App)
+  render: (h) => h(App)
 }).$mount("#app");
 ```
 
@@ -166,17 +166,17 @@ export default {
 
 ## Props
 
-| 名称         | 描述                 | 类型       | 接受值                                                         | 默认值          |
-| ----------- | ---------------------| --------- | ------------------------------------------------------------- | -------------- |
-| `scale`     | 图标大小               | `number`  | /                                                             | `1`            |
-| `animation` | 动画类型               | `string`  | `wrench` / `ring` / `pulse` / `spin` / `spin-pulse` / `flash` / `float` | /              |
-| `speed`     | 动画速度               | `string`  | `slow` / `fast`                                               | /              |
-| `hover`     | 仅在被 hover 时启用动画 | `boolean` | `true` / `false`                                              | `false`        |
-| `flip`      | 翻转类型               | `string`  | `vertical` / `horizontal` / `both`                            | /              |
-| `fill`      | 图标的填充颜色          | `string`  | 颜色名称或十六进制颜色代码                                        | `currentColor` |
-| `label`     | 图标的 lable           | `string`  | /                                                             | /              |
-| `title`     | 图标的 title           | `string`  | /                                                             | /              |
-| `inverse`   | 把图标变成白色          | `boolean` | `true` / `false`                                              | `false`        |
+| 名称        | 描述                    | 类型      | 接受值                                                                  | 默认值         |
+| ----------- | ----------------------- | --------- | ----------------------------------------------------------------------- | -------------- |
+| `scale`     | 图标大小                | `number`  | /                                                                       | `1`            |
+| `animation` | 动画类型                | `string`  | `wrench` / `ring` / `pulse` / `spin` / `spin-pulse` / `flash` / `float` | /              |
+| `speed`     | 动画速度                | `string`  | `slow` / `fast`                                                         | /              |
+| `hover`     | 仅在被 hover 时启用动画 | `boolean` | `true` / `false`                                                        | `false`        |
+| `flip`      | 翻转类型                | `string`  | `vertical` / `horizontal` / `both`                                      | /              |
+| `fill`      | 图标的填充颜色          | `string`  | 颜色名称或十六进制颜色代码                                              | `currentColor` |
+| `label`     | 图标的 lable            | `string`  | /                                                                       | /              |
+| `title`     | 图标的 title            | `string`  | /                                                                       | /              |
+| `inverse`   | 把图标变成白色          | `boolean` | `true` / `false`                                                        | `false`        |
 
 [文档](https://icons.hanwei.io/zh/docs#示例)中有一些示例。
 
@@ -192,9 +192,9 @@ export default {
 export default {
   // ...
   build: {
-    transpile: ['hi-vue-icons']
+    transpile: ["hi-vue-icons"]
   }
-}
+};
 ```
 
 为了仅在客户端（client-side）渲染该组件，需要把组件包裹在 `<client-only>` 标签里：
@@ -224,7 +224,7 @@ export default {
   optimizeDeps: {
     exclude: ["hi-vue-icons/icons"]
   }
-}
+};
 ```
 
 当使用 Vite 的[服务端渲染（SSR）](https://cn.vitejs.dev/guide/ssr.html)功能时（例如 [VuePress](https://v2.vuepress.vuejs.org/zh/)、[Vite SSG](https://github.com/antfu/vite-ssg) 等），需要将 `hi-vue-icons` 加入 `ssr.noExternal` 项（具体解释见[这里](https://cn.vitejs.dev/guide/ssr.html#ssr-externals)）：
@@ -237,7 +237,7 @@ export default {
   ssr: {
     noExternal: ["hi-vue-icons"]
   }
-}
+};
 ```
 
 &nbsp;
